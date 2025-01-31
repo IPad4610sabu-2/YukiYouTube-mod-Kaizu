@@ -3,7 +3,7 @@ services:
 - type: web
   name: system-error
   runtime: python
-  repo: https://github.com/Skype-GitHub/YUKI-GOD
+  repo: https://github.com/IPad4610sabu-2/YukiYouTube-mod-Kaizu/
   plan: free
   buildCommand: pip install -r requirements.txt
   startCommand: uvicorn --port $PORT --host 0.0.0.0 main:app
